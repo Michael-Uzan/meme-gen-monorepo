@@ -1,10 +1,10 @@
 {
-  "name": "meme-gen-e2e",
+  "name": "@michael-monorepo/meme-gen-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "meme-gen"
+      "@michael-monorepo/meme-gen"
     ]
   }
 }
