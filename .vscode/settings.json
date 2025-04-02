@@ -1,6 +1,31 @@
 {
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"eslint.format.enable": true,
-	"eslint.enable": true
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"macros": {
+		"recoilGenTemplate": [
+			{ "command": "type", "args": { "text": "_0" } },
+			"workbench.action.files.save"
+		]
+	},
+	"files.eol": "\n",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"eslint.execArgv": ["--max-old-space-size=8192"],
+	"typescript.tsserver.maxTsServerMemory": 8192
 }
